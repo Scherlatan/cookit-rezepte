@@ -1,0 +1,213 @@
+{
+  "titel": "Pilz-Risotto mit Barolo",
+  "beschreibung": "Aromatisches Risotto aus dem Piemont mit Steinpilzen, Tomaten und frischen Kräutern, abgelöscht mit Barolo. Gelingt mit getrockneten wie mit frischen Pilzen.",
+  "kategorie": "Pasta & Risotto",
+  "kueche": "Italienisch",
+  "tags": [
+    "italienisch",
+    "pilze",
+    "herbst",
+    "fleischlos"
+  ],
+  "portionen": 4,
+  "schwierigkeit": "Einfach",
+  "vorbereitungszeit_min": 25,
+  "zubereitungszeit_min": 60,
+  "gesamtzeit_min": 85,
+  "utensilien": [
+    "Universalmesser",
+    "3D-Rührer",
+    "Spatel",
+    "Schüssel",
+    "Wasserkocher",
+    "Sieb"
+  ],
+  "foto": {
+    "datei": "foto.jpg",
+    "quelle": "„Risotto di Barolo con Fungi“ von LexnGer, CC BY-NC 2.0",
+    "url": "https://www.flickr.com/photos/46602640@N00/4420958767",
+    "lizenz_url": "https://creativecommons.org/licenses/by-nc/2.0/"
+  },
+  "quelle": {
+    "name": "Der Silberlöffel, S. 393 („Pilz-Risotto mit Barolo“)"
+  },
+  "zutaten": [
+    {
+      "eintraege": [
+        {
+          "menge": 40,
+          "einheit": "g",
+          "name": "Parmesan",
+          "hinweis": "in Stücken"
+        },
+        {
+          "menge": 1,
+          "einheit": "Stängel",
+          "name": "glatte Petersilie",
+          "hinweis": "nur die Blätter"
+        },
+        {
+          "menge": 80,
+          "einheit": "g",
+          "name": "Zwiebel",
+          "hinweis": "halbiert"
+        },
+        {
+          "menge": 1,
+          "einheit": "",
+          "name": "Knoblauchzehe"
+        },
+        {
+          "menge": 1,
+          "einheit": "Zweig",
+          "name": "Rosmarin",
+          "hinweis": "nur die Nadeln"
+        },
+        {
+          "menge": 1,
+          "einheit": "Stängel",
+          "name": "Salbei",
+          "hinweis": "nur die Blätter"
+        },
+        {
+          "menge": 1,
+          "einheit": "Stängel",
+          "name": "Basilikum",
+          "hinweis": "nur die Blätter"
+        },
+        {
+          "menge": 40,
+          "einheit": "g",
+          "name": "Butter"
+        },
+        {
+          "menge": 20,
+          "einheit": "ml",
+          "name": "Olivenöl"
+        },
+        {
+          "menge": 100,
+          "einheit": "g",
+          "name": "getrocknete Steinpilze",
+          "hinweis": "20 Min. in heißem Wasser eingeweicht und gut ausgedrückt – oder 500 g frische Pilze in Scheiben"
+        },
+        {
+          "menge": 400,
+          "einheit": "g",
+          "name": "Tomaten",
+          "hinweis": "geschält und gewürfelt (oder 1 Dose stückige Tomaten)"
+        },
+        {
+          "menge": null,
+          "einheit": "",
+          "name": "Salz"
+        },
+        {
+          "menge": null,
+          "einheit": "",
+          "name": "Pfeffer"
+        },
+        {
+          "menge": 350,
+          "einheit": "g",
+          "name": "Risottoreis"
+        },
+        {
+          "menge": 200,
+          "einheit": "ml",
+          "name": "Barolo",
+          "hinweis": "oder ein anderer kräftiger, trockener Rotwein"
+        },
+        {
+          "menge": 600,
+          "einheit": "ml",
+          "name": "Gemüsebrühe",
+          "hinweis": "heiß"
+        }
+      ]
+    }
+  ],
+  "schritte": [
+    {
+      "text": "Universalmesser einsetzen. Parmesan und Petersilie in den Topf geben und fein zerkleinern.",
+      "werkzeug": "Universalmesser",
+      "stufe": 18,
+      "dauer_s": 10,
+      "deckel": "mit Messbecher"
+    },
+    {
+      "text": "Parmesan-Mischung in eine Schüssel umfüllen. Zwiebel, Knoblauch, Rosmarin, Salbei und Basilikum in den Topf geben und zerkleinern.",
+      "werkzeug": "Universalmesser",
+      "stufe": 14,
+      "dauer_s": 5,
+      "deckel": "mit Messbecher"
+    },
+    {
+      "text": "Mit dem Spatel nach unten schieben. Universalmesser entnehmen und 3D-Rührer einsetzen."
+    },
+    {
+      "text": "Butter und Olivenöl zugeben und sanft andünsten.",
+      "werkzeug": "3D-Rührer",
+      "stufe": 1,
+      "temperatur": 110,
+      "dauer_s": 300,
+      "deckel": "ohne Messbecher"
+    },
+    {
+      "text": "Steinpilze (oder frische Pilze) zugeben und mitdünsten.",
+      "werkzeug": "3D-Rührer",
+      "stufe": 2,
+      "temperatur": 120,
+      "dauer_s": 300,
+      "deckel": "ohne Messbecher",
+      "hinweis": "Frische Pilze 5 Min. länger dünsten (am Gerät + 5 Min.), bis ihre Flüssigkeit weitgehend verdampft ist."
+    },
+    {
+      "text": "Tomaten zugeben, mit Salz und Pfeffer würzen und köcheln lassen.",
+      "werkzeug": "3D-Rührer",
+      "stufe": 1,
+      "temperatur": 98,
+      "dauer_s": 1200,
+      "deckel": "mit Messbecher"
+    },
+    {
+      "text": "Risottoreis zugeben und kurz mitdünsten.",
+      "werkzeug": "3D-Rührer",
+      "stufe": 2,
+      "temperatur": 120,
+      "dauer_s": 120,
+      "deckel": "ohne Messbecher"
+    },
+    {
+      "text": "Mit Barolo ablöschen und einkochen lassen.",
+      "werkzeug": "3D-Rührer",
+      "stufe": 2,
+      "temperatur": 120,
+      "dauer_s": 180,
+      "deckel": "ohne Messbecher"
+    },
+    {
+      "text": "Heiße Gemüsebrühe zugeben und garen, bis der Reis bissfest und cremig ist.",
+      "werkzeug": "3D-Rührer",
+      "stufe": 2,
+      "temperatur": 98,
+      "dauer_s": 1080,
+      "deckel": "ohne Messbecher",
+      "ok": [
+        "messbecher"
+      ],
+      "hinweis": "Mit frischen Pilzen nur 500 ml Gemüsebrühe nehmen."
+    },
+    {
+      "text": "3D-Rührer mit dem Spatel entnehmen. Risotto 2 Min. ruhen lassen, abschmecken und mit der Parmesan-Mischung bestreut servieren."
+    }
+  ],
+  "tipps": [
+    "Das Einweichwasser der Steinpilze durch einen Kaffeefilter gießen und einen Teil der Brühe damit ersetzen – für ein intensiveres Pilzaroma.",
+    "Mit frischen Pilzen: 500 g gemischte Pilze (z. B. Champignons, Kräuterseitlinge, Steinpilze) in Scheiben schneiden. 10 g eingeweichte getrocknete Steinpilze dazu verleihen den typischen Waldpilzgeschmack.",
+    "Statt Barolo eignet sich jeder kräftige, trockene Rotwein, etwa ein Nebbiolo oder Langhe Rosso.",
+    "Ist das Risotto zu flüssig, 2–3 Min. weitergaren; ist es zu fest, einen Schuss heiße Brühe unterrühren."
+  ],
+  "erstellt": "03.10.2026",
+  "veroeffentlicht": "03.10.2026"
+}

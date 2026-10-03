@@ -1,0 +1,65 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Cookit-Rezepte</title>
+<meta name="robots" content="noindex">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f4ee;--karte:#fff;--text:#1f1c18;--leise:#6b645a;--linie:#e6dfd3;--akzent:#b4532a;--akzent-hell:#f6e6dc;--chip:#f1ece3}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171513;--karte:#211e1b;--text:#f1ece4;--leise:#a69d90;--linie:#37322c;--akzent:#e08458;--akzent-hell:#3a2a21;--chip:#2b2723}}
+:root[data-theme="dark"]{--bg:#171513;--karte:#211e1b;--text:#f1ece4;--leise:#a69d90;--linie:#37322c;--akzent:#e08458;--akzent-hell:#3a2a21;--chip:#2b2723}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.55 "Source Sans 3",system-ui,-apple-system,sans-serif;-webkit-text-size-adjust:100%}
+.seite{max-width:760px;margin:0 auto;padding:0 16px 64px}
+.held{margin:0 -16px;position:relative}
+.held img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}
+@media (min-width:792px){.held{margin:24px 0 0}.held img{border-radius:18px}}
+.kopf{padding:22px 0 6px}
+.kat{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--akzent);font-weight:600}
+h1{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:clamp(30px,7vw,42px);line-height:1.1;margin:.2em 0 .35em;text-wrap:balance}
+.beschr{color:var(--leise);margin:0 0 16px;font-size:18px}
+.meta{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:18px 0 8px}
+.meta div{background:var(--karte);border:1px solid var(--linie);border-radius:12px;padding:10px 8px;text-align:center}
+.meta b{display:block;font-size:18px}
+.meta span{font-size:12.5px;color:var(--leise)}
+@media (max-width:420px){.meta{grid-template-columns:repeat(2,1fr)}}
+h2{font-family:"Fraunces",Georgia,serif;font-weight:600;font-size:24px;margin:34px 0 12px}
+.werkzeuge{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0}
+.werkzeuge span{background:var(--chip);border-radius:99px;padding:3px 11px;font-size:14px}
+.zgruppe{background:var(--karte);border:1px solid var(--linie);border-radius:14px;padding:6px 16px;margin-bottom:12px}
+.zgruppe h3{font-size:15px;margin:10px 0 2px;color:var(--akzent)}
+.zgruppe ul{list-style:none;margin:0;padding:0}
+.zgruppe li{display:flex;gap:12px;padding:9px 0;border-top:1px solid var(--linie)}
+.zgruppe li:first-child,.zgruppe h3+ul li:first-child{border-top:0}
+.zgruppe .m{min-width:76px;font-weight:600;font-variant-numeric:tabular-nums}
+.zgruppe .h{color:var(--leise)}
+ol.schritte{list-style:none;margin:0;padding:0;counter-reset:s}
+ol.schritte>li{background:var(--karte);border:1px solid var(--linie);border-radius:14px;padding:14px 16px 14px 58px;margin-bottom:10px;position:relative;counter-increment:s}
+ol.schritte>li::before{content:counter(s);position:absolute;left:14px;top:13px;width:30px;height:30px;border-radius:50%;background:var(--akzent);color:#fff;font-weight:700;display:grid;place-items:center;font-size:15px}
+.einst{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.einst span{display:inline-flex;align-items:center;gap:5px;background:var(--akzent-hell);border-radius:8px;padding:3px 9px 3px 7px;font-size:14px;font-weight:600}
+.ic{width:16px;height:16px;flex:none}
+.tipp{margin-top:8px;font-size:15px;color:var(--leise)}
+.tipps{background:var(--karte);border-left:4px solid var(--akzent);border-radius:0 14px 14px 0;padding:6px 18px}
+.tipps li{margin:8px 0}
+details.app{margin-top:40px;background:var(--karte);border:1px solid var(--linie);border-radius:16px;padding:4px 16px}
+details.app summary{cursor:pointer;font-weight:700;padding:12px 0;font-size:17px}
+.app p{color:var(--leise);font-size:15px;margin:4px 0 12px}
+.app h3{font-size:15px;margin:22px 0 6px;color:var(--akzent)}
+.kz{display:grid;grid-template-columns:1fr auto;gap:2px 10px;align-items:center;padding:8px 0;border-top:1px solid var(--linie)}
+.kl{grid-column:1/-1;font-size:12.5px;color:var(--leise);text-transform:uppercase;letter-spacing:.05em}
+.wert{font-size:16px;word-break:break-word}
+.wert.mehr{white-space:pre-line}
+.kopie{border:1px solid var(--linie);background:var(--chip);color:var(--text);border-radius:9px;padding:7px 12px;font:inherit;font-size:14px;cursor:pointer;min-height:40px}
+.kopie.ok{background:var(--akzent);color:#fff;border-color:var(--akzent)}
+.appschritt{border-top:1px solid var(--linie);padding:10px 0}
+.appschritt .einst{margin-top:6px}
+.quelle{margin-top:36px;font-size:14px;color:var(--leise)}
+.quelle a{color:inherit}
+.fotohinweis{font-size:12.5px;color:var(--leise);margin:6px 0 0}
+
+.raster{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;margin-top:20px}
+.k{display:block;background:var(--karte);border:1px solid var(--linie);border-radius:14px;overflow:hidden;color:inherit;text-decoration:none}
+.k img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+.k div{padding:10px 14px 14px}.k span{font-size:12px;color:var(--akzent);text-transform:uppercase;letter-spacing:.06em}
+.k b{display:block;font-size:18px;line-height:1.25;margin:2px 0 4px}.k small{color:var(--leise)}</style></head><body><main class="seite"><div class="kopf"><div class="kat">Bosch Cookit</div>
+<h1>Unsere Cookit-Rezepte</h1><p class="beschr">Eigene und umgeschriebene Rezepte mit allen Einstellungen.</p></div>
+<div class="raster"></div></main></body></html>
